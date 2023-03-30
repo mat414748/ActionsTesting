@@ -9,7 +9,7 @@ on:
 jobs: 
   test: 
     name: Lint & Run Jest
-    runs-on: self-hosted
+    runs-on: levan
     strategy:
       matrix:
         node_version: [16] 
